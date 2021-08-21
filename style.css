@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+
+* {
+
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(253, 244, 229);
+}
+
+.container {
+    margin-top: 200px;
+    text-align: left;
+    color: #fff;
+}
+
+img {
+    margin:  50px 30px;
+}
+
+.h1 {
+    text-transform: uppercase;
+    margin: 40px 30px;
+    font-family: 'Rye', display;
+}
+
+p {
+    line-height: 2;
+    font-size: 1.1rem;
+    margin: 30px;
+
+}
+
+.btn {
+    border-radius: 50px;
+    font-size: 1.2rem;
+    margin:60px 30px 40px;
+}
+
+.sedans .btn:hover {
+    color:orange ;
+}
+
+.suvs .btn:hover {
+    color: rgb(13, 96, 121);
+}
+
+.luxury .btn:hover {
+    color:rgb(3, 58, 71) ;
+}
+
+.sedans {
+    background-color: orange;
+}
+
+.suvs {
+    background-color: rgb(13, 96, 121);
+}
+
+.luxury {
+    background-color: rgb(3, 58, 71);
+}
